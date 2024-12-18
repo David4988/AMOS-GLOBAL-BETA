@@ -24,10 +24,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-::selection{
-   
-   
-}
+
 
 html {
     scroll-behavior: smooth;
@@ -63,6 +60,7 @@ img {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+
 .nav-wrapper {
     position: fixed;
     top: 0;
@@ -85,15 +83,14 @@ img {
     color:black;
 }
 
-.logo {
-    font-size: 2rem;
-}
 
 .nav-menu {
     list-style-type: none;
     display: flex;
     align-items: center;
     padding: 0 20px;
+    font-size: larger;
+    font-weight: 600;
 }
 
 .nav-menu li ~ li {

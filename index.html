@@ -7,6 +7,7 @@
        <!-- GOOGLE  FONTS -->
        <link rel="preconnect" href="https://fonts.gstatic.com">
        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&amp;display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
        <!-- OWL CAROUSEL -->
        <!-- BOX ICONS -->
        <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
@@ -27,7 +28,7 @@
                 </a>
 
                 <ul class="nav-menu" id="nav-menu">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="https://web.whatsapp.com/send?phone=918828485326&text=Hello!%20I%20am%20interested%20in%20Studying%C2%A0abroad.">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Our Partners</a></li>
@@ -45,9 +46,16 @@
 
 <section class="vid">
 
-    <video src="vid/AMOS-Introduction.mp4" muted="no" autoplay loop height="auto" width="100%"></video>
+    <video id="myVideo" autoplay loop muted height="auto" width="100%">
+        <source src="vid/AMOS-Introduction.mp4"  type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <button id="audioButton" class="audio-button"><i style="color: white;" class="fa-solid fa-volume-xmark"></i></button>
+
 
 </section>
+
 
 
 <section class="card">
@@ -119,7 +127,7 @@
            </div>
 
            <img src="img/l.png" alt="" class="button__star-1">
-           <img src="img/f.png" alt="" class="button__star-2">
+           <img src="img/plane.png" alt="" class="button__star-2">
            <img src="img/star.png" alt="" class="button__circle-1">
            <img src="img/star.png" alt="" class="button__circle-2">
            <img src="img/diamond.png" alt="" class="button__diamond">
@@ -138,13 +146,16 @@
         <img src="img/clg.jpg" height="auto" width="600px" alt="">
     </div>
 
-    <div class="con-clg">
-        Achieve Your Dream of Studying <br> Abroad with Amos Global <br> Solutions
-    </div>
+    <div class="clg-content">
 
+    <div class="con-clg">
+        Achieve Your Dream of <br> Studying Abroad with Amos Global Solutions
+    </div>
+ <br>
     <div class="sub-con-clg">
         Let Amos Global Solutions be your guide to studying abroad. <br> From visa assistance to university placement and post-arrival services, <br> we have you covered every step of the way.
     </div>
+</div>
 
 </section>
 
@@ -152,7 +163,7 @@
 
 
 </body>
-<script src="app.js">
+<script src="main.js">
 
 </script>
 </html>
