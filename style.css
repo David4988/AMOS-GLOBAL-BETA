@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+section{
+    font-family:Arial, sans-serif;
+}
+
+.vid{
+    margin-bottom: 2pc;
+}
+
 .c1{
     display: flex;
     justify-content: center;
@@ -12,28 +20,39 @@
 
 .card1{
     margin: 10px;
-    padding: 0 40px 0 40px;
-    border: 2px solid hsl(60.92deg 100% 47.71%);
+    padding: 20px;
+    border: 0.5px solid hsl(61, 100%, 50%);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(206, 184, 184);
+    box-shadow: 0 0 10px hsla(61, 100%, 52%, 0.445);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(98, 103, 107);
 }
 
-.card1 > img {
-    position: relative;
-    left: 50px;
+.car-img > img{
+    opacity: 60%;
 }
+
+.con-car{
+    padding-left:20px; 
+}
+
+
+
 
 .clg{
-    font-family: "Inter", sans-serif;
-    font-size: xx-large;
-    margin: 0 0 0 50px;
-    font-weight:600 ;
-    position: relative;
-    
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
-.clg-img{
+.clg-img > img{
     border-radius: 20px;
+    box-shadow: 0 0 30px rgb(203, 235, 89),
+    0 0 50px rgb(203, 235, 89),
+    0 0 100px rgb(203, 235, 89);
 }
 
 .con-clg{
