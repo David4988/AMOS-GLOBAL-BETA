@@ -207,6 +207,7 @@ a.movie-item:hover {
     align-items: center;
     column-gap: .5rem;
     overflow: hidden;
+    font-size: x-large;
   }
   
   .button__text {
@@ -372,4 +373,13 @@ a.movie-item:hover {
   
   .button:hover .button__triangle {
     transform: rotate(-12deg) scale(1.1);
+  }
+
+
+
+  /* media */
+  @media screen and (max-width:800px) {
+    .button__content{
+      font-size: medium;
+    }
   }

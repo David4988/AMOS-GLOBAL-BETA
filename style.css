@@ -41,9 +41,9 @@ section{
 .card1{
     margin: 10px;
     padding: 20px;
-    border: 0.5px solid hsl(61, 100%, 50%);
+    border: 3px solid#a9caaa;
     border-radius: 10px;
-    box-shadow: 0 0 10px hsla(61, 100%, 52%, 0.445);
+    box-shadow: 0 0 10px #a9caaa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,7 +138,6 @@ section{
 
 .gs-university-scrolling {
     width: 100%;
-    max-width: 900px;
     overflow: hidden;
     position: relative;
     margin: 4pc auto;
@@ -165,9 +164,8 @@ section{
     height: 80px;
     margin-right: 32px;
     vertical-align: middle;
-    filter: grayscale(50%);
-    opacity: 40%;
     object-fit: contain;
+    opacity: 70%;
 }
 
 
@@ -436,15 +434,16 @@ header .header-menu .header-menu-list p {
     border-radius: 5px;
     background-color: #a9caaa;
     width: 500px;
+
     height: 400px ;
-    margin: 50px;
+    margin: 60px 60px 60px 5px;
     padding: 30px;
     box-shadow:  2px 2px 20px #a9caaa;
 
 }
 
 .ser-con{
-    padding: 70px;
+    padding: 20px 20pc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,7 +454,7 @@ header .header-menu .header-menu-list p {
     background-color: #a9caaa;
     width: 400px;
     height: 450px ;
-    margin: 60px;
+    margin: 60px 60px 60px 60px;
     padding: 30px;
     box-shadow:  2px 2px 20px #a9caaa;
 }
@@ -486,3 +485,109 @@ header .header-menu .header-menu-list p {
 p{
     font-weight: 600;
 }
+
+
+
+
+
+
+
+
+
+
+/* media */
+
+@media screen and (max-width:800px) 
+{
+
+    .c1{
+        display: block;
+        width: max-content;
+        justify-self:center;
+        
+    }
+
+    .card1{
+        margin-bottom: 60px;
+    }
+
+    .clg{
+        margin: 0;
+        display: block;
+    }
+
+    .con-clg{
+        font-size: calc(.2526 * 10vh);
+    }
+
+    .amos {
+        display: block;
+        border: none;
+
+    }
+
+    .amos > div{
+        width: 250px;
+
+    }
+
+    .amos > div:hover{
+        scale: 1;
+        
+    }
+    .ser-con{
+        display: block;
+        padding: 0;
+    }
+
+    .services-card {
+        display: block;
+        position: relative;
+        left: 30px;
+        display: block;
+    }
+
+    .services-card > .ser1 > div{
+        width: auto;
+    }
+
+    .services-card> .ser2 > div{
+        right: 55px;
+        position: relative;
+    }
+    .our-services{
+        overflow: hidden;
+    }
+    .core-h1{
+        font-size: small;
+    }
+}
+
+
+
+@media screen and (max-width:400px) {
+
+    .core-h1{
+        font-size: small;
+    }
+
+    .con-clg{
+        font-size: calc(.2526 * 10vh);
+    }
+
+    .amos{
+        position: relative;
+        left: -60px;
+    }
+
+    .services-card> .ser1 > div{
+     width: auto;
+    }
+
+    .services-card> .ser2 > div{
+        width: auto;
+    }
+    
+}
+
+
