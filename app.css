@@ -165,7 +165,6 @@ a.movie-item:hover {
         position: absolute;
         top: 100%;
         left: -100%;
-        background-color: #000000;
         flex-direction: column;
         width: 80%;
         height: 100vh;
@@ -174,7 +173,8 @@ a.movie-item:hover {
     }
 
     .nav-menu li {
-        margin: 10px 30px;
+        margin: 40px 30px;
+        border-bottom: 1px solid rgba(129, 127, 127, 0.144);
     }
 
     .nav-menu.active {
